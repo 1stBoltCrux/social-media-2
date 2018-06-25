@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Nav from './components/Nav.js'
 import Profile from './components/Profile.js'
+import FriendsList from './components/FriendsList.js'
+import SuggestionList from './components/SuggestionList.js'
 
 class App extends Component {
   render() {
@@ -10,6 +12,8 @@ class App extends Component {
       <Nav></Nav>
     <div className='content-wrapper'>
       <Profile></Profile>
+      <FriendsList></FriendsList>
+      <SuggestionList></SuggestionList>
     </div>
 
     </div>
