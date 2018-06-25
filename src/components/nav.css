@@ -1,0 +1,12 @@
+.navWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navButtons {
+  display: flex;
+}
+
+.navSearch {
+  display: flex;
+}

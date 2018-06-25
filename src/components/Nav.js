@@ -1,15 +1,18 @@
 import React, {Component} from 'react';
+import styles from './nav.css'
+
+console.log(styles);
 
 function Nav(){
   return (
-    <div className='nav-wrapper'>
-      <div className='nav-buttons'>
+    <div className={styles.navWrapper}>
+      <div className={styles.navButtons}>
         <p>Home</p>
         <p>Notifications</p>
         <p>Messages</p>
       </div>
 
-      <div className='nav-search'>
+      <div className={styles.navSearch}>
         <input type='text' placeholder='Search'/>
         <p>Tweet</p>
       </div>
