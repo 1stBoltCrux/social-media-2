@@ -9,4 +9,10 @@
 
 .navSearch {
   display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.navButtons p {
+  margin-left: 20px;
 }
