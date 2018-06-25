@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles from './nav.css'
+import styles from './nav.scss'
 
 console.log(styles);
 
