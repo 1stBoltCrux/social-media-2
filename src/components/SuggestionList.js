@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Suggestion from './Suggestion.js'
-
+import Suggestion from './Suggestion.js';
+import styles from './suggestionlist.scss';
 const suggestionArray = [
   {
     name: 'Brad',
@@ -18,8 +18,8 @@ const suggestionArray = [
 
 function SuggestionList(){
   return(
-    <div className='suggestionlist-wrapper'>
-      <div className='suggestionlist-top'>
+    <div className={styles.suggestionListWrapper}>
+      <div className={styles.suggestionListTop}>
         <h3>Suggestion List</h3>
       </div>
 

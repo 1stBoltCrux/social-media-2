@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
+import styles from './suggestion.scss'
 
 function Suggestion(props){
   return(
-    <div className='suggestion-wrapper'>
-      <div className='suggestion-image'></div>
-      <div className='suggestion-content'>
+    <div className={styles.suggestionWrapper}>
+      <div className={styles.suggestionImage}></div>
+    <div className={styles.suggestionContent}>
         <h3>{props.name}</h3>
-        <div className='suggestion-button'><p>Button</p></div>
+        <p>{props.description}</p>
+      <div className={styles.suggestionButton}><p>Button</p></div>
       </div>
     </div>
   );
